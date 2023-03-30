@@ -25,7 +25,7 @@ public class Okno extends JFrame implements ActionListener{
 		setTitle("Go");
 		platno = new Platno(800,800);
 		add(platno);
-
+		platno.setBackground(platno.barva_odzadja);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
